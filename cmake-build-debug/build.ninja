@@ -39,7 +39,7 @@ include CMakeFiles/rules.ninja
 #############################################
 # Logical path to working directory; prefix for absolute paths.
 
-cmake_ninja_workdir = C$:/Users/RAZVAN/Desktop/tema$ 2/cmake-build-debug/
+cmake_ninja_workdir = C$:/Users/RAZVAN/Desktop/tema2_POO/cmake-build-debug/
 # =============================================================================
 # Object build statements for EXECUTABLE target tema_2
 
@@ -49,7 +49,7 @@ cmake_ninja_workdir = C$:/Users/RAZVAN/Desktop/tema$ 2/cmake-build-debug/
 
 build cmake_object_order_depends_target_tema_2: phony || CMakeFiles/tema_2.dir
 
-build CMakeFiles/tema_2.dir/main.cpp.obj: CXX_COMPILER__tema_2_Debug C$:/Users/RAZVAN/Desktop/tema$ 2/main.cpp || cmake_object_order_depends_target_tema_2
+build CMakeFiles/tema_2.dir/main.cpp.obj: CXX_COMPILER__tema_2_Debug C$:/Users/RAZVAN/Desktop/tema2_POO/main.cpp || cmake_object_order_depends_target_tema_2
   DEP_FILE = CMakeFiles\tema_2.dir\main.cpp.obj.d
   FLAGS = -g -std=gnu++14
   OBJECT_DIR = CMakeFiles\tema_2.dir
@@ -81,7 +81,7 @@ build tema_2.exe: CXX_EXECUTABLE_LINKER__tema_2_Debug CMakeFiles/tema_2.dir/main
 # Utility command for edit_cache
 
 build CMakeFiles/edit_cache.util: CUSTOM_COMMAND
-  COMMAND = cmd.exe /C "cd /D "C:\Users\RAZVAN\Desktop\tema 2\cmake-build-debug" && "C:\Program Files\JetBrains\CLion 2021.3.3\bin\cmake\win\bin\cmake.exe" -E echo "No interactive CMake dialog available.""
+  COMMAND = cmd.exe /C "cd /D C:\Users\RAZVAN\Desktop\tema2_POO\cmake-build-debug && "C:\Program Files\JetBrains\CLion 2021.3.3\bin\cmake\win\bin\cmake.exe" -E echo "No interactive CMake dialog available.""
   DESC = No interactive CMake dialog available...
   restat = 1
 
@@ -92,7 +92,7 @@ build edit_cache: phony CMakeFiles/edit_cache.util
 # Utility command for rebuild_cache
 
 build CMakeFiles/rebuild_cache.util: CUSTOM_COMMAND
-  COMMAND = cmd.exe /C "cd /D "C:\Users\RAZVAN\Desktop\tema 2\cmake-build-debug" && "C:\Program Files\JetBrains\CLion 2021.3.3\bin\cmake\win\bin\cmake.exe" --regenerate-during-build -S"C:\Users\RAZVAN\Desktop\tema 2" -B"C:\Users\RAZVAN\Desktop\tema 2\cmake-build-debug""
+  COMMAND = cmd.exe /C "cd /D C:\Users\RAZVAN\Desktop\tema2_POO\cmake-build-debug && "C:\Program Files\JetBrains\CLion 2021.3.3\bin\cmake\win\bin\cmake.exe" --regenerate-during-build -SC:\Users\RAZVAN\Desktop\tema2_POO -BC:\Users\RAZVAN\Desktop\tema2_POO\cmake-build-debug"
   DESC = Running CMake to regenerate build system...
   pool = console
   restat = 1
@@ -110,7 +110,7 @@ build tema_2: phony tema_2.exe
 # =============================================================================
 
 #############################################
-# Folder: C:/Users/RAZVAN/Desktop/tema 2/cmake-build-debug
+# Folder: C:/Users/RAZVAN/Desktop/tema2_POO/cmake-build-debug
 
 build all: phony tema_2.exe
 

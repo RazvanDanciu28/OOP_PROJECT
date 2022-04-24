@@ -4,31 +4,8 @@
 #include <vector>
 #include <memory>
 
-//exceptii
-class InvalidAge : public std::exception {
-public:
-    InvalidAge() = default;
+#include "excpetions.h"
 
-    const char *what() const noexcept override {
-        return "Varsta invalida!";
-    }
-};
-class InvalidWeight : public std::exception {
-public:
-    InvalidWeight() = default;
-
-    const char *what() const noexcept override {
-        return "Greutate invalida!";
-    }
-};
-class ambele : public std::exception {
-public:
-    ambele() = default;
-
-    const char *what() const noexcept override {
-        return "Varsta si greutate invalide!";
-    }
-};
 
 enum class Rasa {
     Bichon,

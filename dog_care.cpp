@@ -9,7 +9,7 @@ void DogCare::addDog(const std::shared_ptr<dog> &dogg) {
     dogs.push_back(dogg);
 }
 void DogCare::deleteDog(const int i_dog) {
-    for (int i = i_dog; i < dogs.size(); i++){
+    for (int i = i_dog; i < dogs.size() - 1; i++){
         dogs[i] = dogs[i+1];
     }
     dogs.pop_back();

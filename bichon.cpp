@@ -56,6 +56,7 @@ void Bichon::print(std::ostream &fout) const {
     std::cout << "\n" << "My color is" << get_color();
     std::cout << "\n" << "My favorite meal is " << get_favMeal();
     std::cout << "\n" << "My favorite activity is " << get_favActivity();
+    std::cout<< "\n\n";
 }
 
 //cc + op=

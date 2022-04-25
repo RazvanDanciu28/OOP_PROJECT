@@ -1,3 +1,4 @@
+#include <iostream>
 #include <string>
 #include "rasa.h"
 #ifndef _dog_h_
@@ -27,9 +28,12 @@ public:
     virtual std::string get_size() const = 0;
     virtual std::string get_country() const = 0;
 
-    virtual void print(std::ostream &fout) const  ;
+    virtual void print(std::ostream &fout) const;
 };
 
-
+std::ostream& operator<<(std::ostream &fout, const dog *dogg){
+    dogg->print(fout);
+    return fout;
+}
 
 #endif

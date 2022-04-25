@@ -4,7 +4,7 @@
 enum class Rasa {
     Bichon,
     Beagle,
-    Rottweiler,
+    Rotweiller,
     Golden_Retriever,
     Pug
 };
